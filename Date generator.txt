@@ -1,0 +1,53 @@
+>>> val=input("Type in a year:")
+>>> if int(val) % 4:
+	for x in range(1, 2):
+		for x in range (1,32):
+			print("January %s," % (x)+ str(val)) ;
+		for x in range (1, 30):
+			print("February %s," % (x) + str(val)) ;
+		for x in range (1, 32):
+			print("March %s," % (x) + str(val)) ;
+		for x in range (1, 31):
+			print("April %s," % (x) + str(val)) ;
+		for x in range (1, 32):
+			print("May %s," % (x) + str(val)) ;
+		for x in range (1, 31):
+			print("June %s," % (x) + str(val)) ;
+		for x in range (1, 32):
+			print("July %s," % (x) + str(val)) ;
+		for x in range (1, 32):
+			print("August %s," % (x) + str(val)) ;
+		for x in range (1, 31):
+			print("September %s," % (x) + str(val)) ;
+		for x in range (1, 32):
+			print("October %s," % (x) + str(val)) ;
+		for x in range (1, 31):
+			print("November %s," % (x) + str(val)) ;
+		for x in range (1, 32):
+			print("December %s," % (x) + str(val)) ;
+elif int(val) % 4 == False:
+	for x in range(1, 2):
+		for x in range (1,32):
+			print("January %s," % (x)+ str(val)) ;
+		for x in range (1, 29):
+			print("February %s," % (x) + str(val)) ;
+		for x in range (1, 32):
+			print("March %s," % (x) + str(val)) ;
+		for x in range (1, 31):
+			print("April %s," % (x) + str(val)) ;
+		for x in range (1, 32):
+			print("May %s," % (x) + str(val)) ;
+		for x in range (1, 31):
+			print("June %s," % (x) + str(val)) ;
+		for x in range (1, 32):
+			print("July %s," % (x) + str(val)) ;
+		for x in range (1, 32):
+			print("August %s," % (x) + str(val)) ;
+		for x in range (1, 31):
+			print("September %s," % (x) + str(val)) ;
+		for x in range (1, 32):
+			print("October %s," % (x) + str(val)) ;
+		for x in range (1, 31):
+			print("November %s," % (x) + str(val)) ;
+		for x in range (1, 32):
+			print("December %s," % (x) + str(val)) ;
